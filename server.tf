@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "angry-admin-key"
 
   tags = {
-    Name = "AngrySysOps-Dev"
+    Name = "AngrySysOps-Dev2"
     env = "development"
     env = "prod"
   }
