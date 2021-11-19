@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "angry-admin-key"
 
   tags = {
-    Name = "Gagan-devops-ec2-instance-v2"
+    Name = "AngrySysOps"
     env = "development"
   }
   provisioner "local-exec" {
