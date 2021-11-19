@@ -9,5 +9,3 @@
       service: name=httpd state=started
     - name: add user
       user: name=gagandeep state=present
-
-   
