@@ -8,5 +8,4 @@
     - name: start service
       service: name=httpd state=started
     - name: add user
-      user: name=gagandeep state=absent
       user: name=angryadmin state=present
