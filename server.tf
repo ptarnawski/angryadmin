@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "angry-admin-key"
 
   tags = {
-    Name = "AngrySysOps"
+    Name = "AngrySysOpsBlog"
     env = "development"
   }
   provisioner "local-exec" {
